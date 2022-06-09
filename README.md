@@ -1,6 +1,12 @@
 # Replacements
 
 ## API
+
+### Authorization
+```
+Authorization: "Token <token>"
+```
+
 ### ```/api/```
 - [/api/img/](#apiimg)
 - [/api/user/](#apiuser)
