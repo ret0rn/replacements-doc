@@ -6,6 +6,7 @@
 ```
 Authorization: "Token <token>"
 ```
+---
 
 ### ```/api/```
 - [/api/img/](#apiimg)
