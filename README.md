@@ -12,6 +12,7 @@ Authorization: "Token <token>"
 - [/api/img/](#apiimg)
 - [/api/user/](#apiuser)
 - [/api/docx/](#apidocx)
+- [/api/time-table/](#apitime-table)
 
 
 ---
@@ -48,3 +49,17 @@ Authorization: "Token <token>"
 Метод    |         Endpoint             |   Параметры        | Описание
 :-------:|------------------------------|--------------------|---------
 ✅**POST** |```/api/docx/upload-grid/```  |```file: <.docx>``` | Обновляет шаблон замен
+
+
+
+### ```/api/time-table/```
+
+Расписание
+
+Метод    |         Endpoint             |   Параметры        | Описание
+:-------:|------------------------------|--------------------|---------
+✅**POST** |```/api/time-table/upload-table/```  |```file: <.xls/xltx/xlsx>``` | Парсит файл и заполняет базу дааных расписания
+✅**GET** |```/api/time-table/get-active-table/```  |None| Получает активное расписание 
+
+
+
