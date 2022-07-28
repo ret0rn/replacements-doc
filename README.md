@@ -59,7 +59,7 @@ Authorization: "Token <token>"
 Метод    |         Endpoint             |   Параметры        | Описание
 :-------:|------------------------------|--------------------|---------
 ✅**POST** |```/api/time-table/upload-table/```  |```file: <.xls/xltx/xlsx>``` </br> ```day: <str>``` ```even: <bool>``` | Парсит файл и заполняет базу дааных расписания
-✅**GET** |```/api/time-table/get-active-table/```  |```group: <str>``` </br> ```day: <str> ``` </br>```even: <bool>``` </br> ```type: 'string' || 'array' || None```| Получает активное расписание 
+✅**GET** |```/api/time-table/get-active-table/```  |```group: <str>``` </br> ```day: <str> ``` </br>```even: <bool>``` </br> ```type: 'string' OR 'array' OR None```| Получает активное расписание 
 
 
 
